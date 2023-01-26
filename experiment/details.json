@@ -1,0 +1,46 @@
+{
+
+   "detail": [
+       {
+			"Experiment": "Gas Welding experiment" ,     
+			"Lab": "Manufacturing Processes" ,               
+			"Disciplin": "B.Tech",				 
+		        "Technology": "Html,Css and Javascript"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "Mr. Naveen Kumar",         
+      "Institute": "United College Of Engineering & Research, Prayagraj, Uttar Pradesh",         
+      "InstituteAcronym": "UCER"   
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "Mohd Shahzeb Khan",             
+      "Institute": "United College Of Engineering & Research, Prayagraj, Uttar Pradesh",               
+			"InstituteAcronym": "UCER"         
+       },
+
+       {       
+			"Contributer": "Malvika Kesarwani",              
+      "Institute": "United College Of Engineering & Research, Prayagraj, Uttar Pradesh",               
+			"InstituteAcronym": "UCER"         
+       },
+
+       {       
+			"Contributer": "Syed Shahzeb Hasan",             
+      "Institute": "United College Of Engineering & Research, Prayagraj, Uttar Pradesh",               
+			"InstituteAcronym": "UCER"         
+       },
+
+       {       
+			"Contributer": "Haris Ansari",              
+      "Institute": "United College Of Engineering & Research, Prayagraj, Uttar Pradesh",               
+			"InstituteAcronym": "UCER"         
+       }
+   ]
+
+}

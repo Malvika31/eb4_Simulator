@@ -1,0 +1,310 @@
+
+body{
+    margin: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+    
+.heading{
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+   position: relative;
+    height: 340px;
+    width: 100vw;
+    border:2px solid black;
+}
+
+
+
+#btn{
+  border: 1px solid black;
+  color: #000;
+  background-color: rgb(143 202 230 / 91%);
+  position: relative;
+  margin-left: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.left{
+  position: absolute;
+  height:266px;
+  width:50%;
+}
+
+.left p{
+  margin-left: 10px;
+  margin-bottom: -13px;
+  line-height:1;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
+.heading h3{
+  text-align: center;
+  font-size:21px;
+}
+
+.heading ul{
+  list-style:none;
+
+}
+.heading ul li{
+  font-size:15px;
+  padding: 1px 85px;
+}
+
+.vl{
+  position: relative;
+  left:50%;
+  top:-3%;
+  border-left: 3px solid black;
+  height: 276px;
+}
+
+.right{
+  position: absolute;
+  width: 50%;
+  height:300px;
+  left:50%;
+  top:21%;
+}
+.right p{
+  margin-left: 95px;
+  margin-top: 120px;
+  line-height:1.5;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+}
+
+.torch{
+    
+    position:relative;
+    left:29%;
+    height: 250px;
+    width:300px;
+    top: 11%;
+    
+}
+.torch_hover{
+    position:absolute;
+    left:47%;
+    height: 250px;
+    width:250px;
+    top:55%;
+}
+.flame{
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    left:0px;
+    top:-22%;
+    transform: rotate(-123deg);
+}
+#img1{
+  position: fixed;
+  left:0px;
+  top:4%;
+  
+}
+
+#img2{
+  position: fixed;
+  left:3px;
+  top:-42%;
+}
+
+.rod{
+    position: absolute;
+    display:none;
+    left:16%;
+    top: 48%;
+    height: 200px;
+    width: 200px;
+}
+.slab{
+    position: absolute;
+    height:150px;
+    width:200px;
+    left:20%;
+    top:67%;
+}
+
+#one{
+
+  display:none;
+ 
+}
+#two{
+ 
+  display: none;
+}
+
+.meter{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    left:77%;
+    top:61%;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6{
+  background-color: #f9d423;
+  border: 1px solid rgb(110, 108, 108);
+  display: none;
+  left:40%;
+  color: #000;
+  position: fixed;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/*dropdown button*/
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  left:80%;
+  top:9%;
+}
+
+.dropdown-content {
+  display:none ;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 112px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+ 
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+#btn1{
+  top:12%;
+}
+
+#btn2{
+  top: 21%;
+}
+
+#btn3{
+  top: 26%;
+}
+#btn4{
+  top: 31%;
+}
+#btn5{
+  top: 36%;
+}
+
+
+/* Overlay Effects*/
+
+/* cylinders overlay */
+.cylinders .overlay {
+    position: absolute;
+    bottom: -20px;
+    right:0px;
+    width: 100%;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+
+  }
+  .cylinders:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }  
+  .cylinders:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.5; 
+   }
+
+
+/* torch overlay */
+   .torch_hover .overlay {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width: 80%;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+
+  }
+  .torch_hover:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .torch_hover:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.5; 
+   }
+
+/* meter overlay */
+.meter .overlay {
+  position: absolute;
+  bottom: -10px;
+  right: 125px;
+  width: 100%;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+
+}   
+   .meter:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .meter:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.5; 
+   }
+  
+   

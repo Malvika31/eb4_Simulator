@@ -1,0 +1,9 @@
+The oxy-acetylene flame of the welding gas process develops an extremely high temperature at its bright inner core, useful for melting metals & permits the welder to work with the flame itself and with its surrounding envelope the molten puddle form neighboring air which if allowed in would oxidize the metal and impair the metal properties. There are three types of flame:-Neutral flame (at 3200 °C) which have same portion of oxygen and acetylene, Oxidizing flame (at 3400°C) having excess oxygen, Reducing flame (at 3000°C) having excess acetylene.
+The following are the equipment used:
+1. Oxygen Cylinders: These cylinders are usually painted green or black as they contain compressed oxygen at pressure that can be as high as 2200 psi. All the cylinders have valves and are fitted with a screw or steel cap
+2. Acetylene Cylinders: These cylinders contain acetylene under pressure and are painted red or maroon and are made of steel and have valves. The cylinder contain a porous filler material wetted with acetone that allows the acetylene to be safely contained in the cylinder at 250 psi.
+3. Regulators: With a pressure in full acetylene cylinder at 250 psi and the oxygen cylinder at 2200 psi, away is needed to lower the cylinder pressure to desired working pressure in the torch which is accomplished by the help of adjustable pressure reducing regulator 
+4. Welding Hoses: Hoses are fabricated from rubber. Oxygen hoses are green in color and have a right hand thread. Acetylene hoses are red in color and have left hand thread.
+5. Spark Lighter: A spark lighter having graphite at its core is used to generate a spark to ignite the mixture of oxygen and acetylene coming out from the welding torch
+6. Welding Torch: A welding torch is made of brass and it have a mixing chamber in which oxygen and acetylene get mixed and comes out and nozzle from which flame comes out  is made up of silicon nitride 
+

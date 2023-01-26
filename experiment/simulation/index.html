@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welding</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+</head>
+<body>
+    <div class="heading">
+        <h3>Simulator for Gas Welding</h3><hr>
+        
+        <div class="left">
+            <button id="btn">Instructions</button>
+            <p id="step1"></p>
+            <div class="dropdown">
+                <button id="btn1">Select Metal</button>
+                <div class="dropdown-content">
+                    <a href="#" id="d_btn1">Mild Steel</a>
+                    <a href="#" id="d_btn2">Cast Iron</a>
+                    </div>
+                </div>
+            <p id="msg1"></p>
+            <p id="step2"></p>
+            <button id="btn2">Set Cylinder</button>
+            <p id="msg2"></p>
+            <p id="step3"></p>
+            <button id="btn3">Spark Lighter</button>
+            <p id="msg3"></p>
+            <p id="step4"></p>
+            <button id="btn4">Set filling Rod</button>
+            <p id="msg4"></p>
+            <p id="step5"></p>
+            <button id="btn5">Start Welding</button>
+            <p id="msg6" class="blink_me"></p>
+            
+        </div>
+        <div class="vl"></div> 
+        <div class="right">
+            <h3 class ="blink_me" style="color:rgb(53, 70, 7);"><span>NOTE: </span> To know Object Details Hover On It.</h3>
+                <ul>
+                    <li><b>Material:</b> Mild Steel,Cast Iron </li>
+                    <li><b> Metal Thickness:</b> 1/16" </li>
+                    <li><b>Rod Diameter:</b>  3/32-1/8" </li>
+                    <li><b>Filler rod: </b>Brass</li>
+                    <li><b>Oxygen (high pressure):</b>2200 psi</li>
+                    <li><b>Oxygen (low pressure):</b> 11-25 psi</li>
+                    <li><b>Acetylene (high pressure):</b> 250 psi</li>
+                    <li><b>Acetylene (low pressure):</b> 5-7 psi</li>
+                    <li><b>Temperature generated:</b> 3200-3300°C
+                    </li>
+                </ul>
+        </div> 
+    </div> 
+    <section id="sec">
+        <div class="background"> 
+            <div class="slab">
+                <img src="images/joined.png" id="one">
+                <img src="images/slab_one.png" id="two">
+                
+            </div>
+            <div class="torch"><img src="images/cylinder_torch.png">
+                <div class="flame"><img src="" id="img1">
+                    <img src="" id="img2">
+                </div>
+            </div>
+            <div class="torch_hover">
+                <div class="overlay">Acetylene Cylinder And Oxygen Cylinder</div>
+            </div>
+            <div class="rod">
+                <img src="images/rsz_rod.png">
+            </div>         
+            <div class="meter">
+                <img src="images/meter0.png" alt="">
+                <div class="overlay">Pressure gauges</div>
+            </div>
+        </div>
+          
+        <script src="js/main.js"></script>
+        
+</body>
+</html>
